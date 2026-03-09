@@ -1,11 +1,17 @@
-/* 
+.counter {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  background: rgb(0, 0, 0);
+  padding: 20px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.digito {
+  color: rgb(110, 110, 110);
+  background: #ffffff;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+}
